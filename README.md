@@ -1,4 +1,3 @@
-
 # Predictive Forecasting of Care Load & Placement Demand
 
 ## Project Overview
@@ -84,8 +83,10 @@ Predictive_Care_Load_Forecasting/
 │   └── app.py
 │
 ├── reports/
+│   └── Project_Report.md
 │
-├── main.py
+├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
@@ -144,6 +145,8 @@ A chronological train-test split and rolling one-month-ahead evaluation were use
 
 Approximate 80% empirical error ranges were calculated using historical test residuals to show uncertainty around the selected model predictions.
 
+These ranges are indicative and are not formal statistical prediction intervals.
+
 ### 7. Future Forecasting
 
 Generated six-month out-of-sample estimates for:
@@ -199,7 +202,7 @@ git clone https://github.com/saisandeepdonthala-dss/Predictive-Care-Load-Forecas
 ### Step 2: Open the Project Folder
 
 ```bash
-cd Predictive_Care_Load_Forecasting
+cd Predictive-Care-Load-Forecasting
 ```
 
 ### Step 3: Create a Virtual Environment
@@ -219,7 +222,7 @@ Windows PowerShell:
 ### Step 5: Install Required Libraries
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn statsmodels streamlit plotly joblib
+pip install -r requirements.txt
 ```
 
 ### Step 6: Run the Dashboard
