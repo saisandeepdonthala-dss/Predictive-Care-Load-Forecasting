@@ -193,7 +193,7 @@ The project includes an interactive dashboard with the following features:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/saisandeepdonthala-dss/Predictive-Care-Load-Forecasting.git
 ```
 
 ### Step 2: Open the Project Folder
