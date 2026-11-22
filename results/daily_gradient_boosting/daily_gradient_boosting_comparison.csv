@@ -1,0 +1,3 @@
+Target,Model,MAE,RMSE,Test_Records
+care,Gradient Boosting,136.77039006250808,170.47136840175403,102
+discharge,Gradient Boosting,6.671001609464583,8.53105846181945,102
